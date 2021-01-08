@@ -7,10 +7,56 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div class="hero"></div>
+
+    <header class="header hr-container" id="header">
+        <img src="img/Logo.svg" alt="logo">
+        <nav class="header__navigation">
+            <ul>
+                <li><a href="#" class="header__link">Equipment</a></li>
+                <li><a href="#" class="header__link">About us</a></li>
+                <li><a href="#" class="header__link">Blog</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="header__account header__link">Account</a>
+    </header>
+
+    <div class="hero hr-container">
+
+        <div class="social">
+            <div class="text">Follow us</div>
+            <a href="#">
+              <img src="img/inst.png" alt="Instagram logo" />
+            </a>
+            <a href="#">
+              <img src="img/twitter.png" alt="Twitter logo" />
+            </a>
+          </div>
+
+        <div class="hero__desc">
+            <div class="hero__headline">
+                <div class="hero__hr"></div>
+                <h4 class="hero__subtitle">
+                    A Hiking guide
+                </h4>
+            </div>
+            <h1 class="hero__title">
+                Be prepared for the Mountains and beyond!
+            </h1>   
+            <button class="hero__btn">scroll down</button>
+        </div>
+
+        <nav class="hero__navigation">
+            <ul>
+                <li><a href="#header">Start</a></li>
+                <li><a href="#01">01</a></li>
+                <li><a href="#02">02</a></li>
+                <li><a href="#03">03</a></li>
+            </ul>
+        </nav>
+    </div>
 
     <main class="page container">
-        <div class="page__section">
+        <div class="page__section" id="01">
             <div class="page__text-block">
                 <span class="page__number">01</span>
                 <article class="page__article">
@@ -34,7 +80,7 @@
             </div>
         </div>
 
-        <div class="page__section second-section">
+        <div class="page__section second-section" id="02">
             <div class="page__text-block">
                 <span class="page__number">02</span>
                 <article class="page__article">
@@ -58,7 +104,7 @@
             </div>
         </div>
 
-        <div class="page__section">
+        <div class="page__section" id="03">
             <div class="page__text-block">
                 <span class="page__number">03</span>
                 <article class="page__article">
